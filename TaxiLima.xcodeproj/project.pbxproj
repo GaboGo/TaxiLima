@@ -1,0 +1,316 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE43B77615D02E13007D497F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE43B77515D02E13007D497F /* UIKit.framework */; };
+		BE43B77815D02E13007D497F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE43B77715D02E13007D497F /* Foundation.framework */; };
+		BE43B77A15D02E13007D497F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE43B77915D02E13007D497F /* CoreGraphics.framework */; };
+		BE43B78015D02E13007D497F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BE43B77E15D02E13007D497F /* InfoPlist.strings */; };
+		BE43B78215D02E13007D497F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE43B78115D02E13007D497F /* main.m */; };
+		BE43B78615D02E13007D497F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE43B78515D02E13007D497F /* AppDelegate.m */; };
+		BE43B78915D02E13007D497F /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE43B78815D02E13007D497F /* FirstViewController.m */; };
+		BE43B78B15D02E13007D497F /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = BE43B78A15D02E13007D497F /* first.png */; };
+		BE43B78D15D02E13007D497F /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE43B78C15D02E13007D497F /* first@2x.png */; };
+		BE43B79015D02E13007D497F /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE43B78F15D02E13007D497F /* SecondViewController.m */; };
+		BE43B79215D02E13007D497F /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = BE43B79115D02E13007D497F /* second.png */; };
+		BE43B79415D02E13007D497F /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE43B79315D02E13007D497F /* second@2x.png */; };
+		BE43B79715D02E13007D497F /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE43B79515D02E13007D497F /* FirstViewController.xib */; };
+		BE43B79A15D02E13007D497F /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE43B79815D02E13007D497F /* SecondViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BE43B77115D02E13007D497F /* TaxiLima.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaxiLima.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE43B77515D02E13007D497F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BE43B77715D02E13007D497F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BE43B77915D02E13007D497F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BE43B77D15D02E13007D497F /* TaxiLima-Info.plist */ = {isa = PBXFileReference; path = "TaxiLima-Info.plist"; sourceTree = "<group>"; };
+		BE43B77F15D02E13007D497F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BE43B78115D02E13007D497F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BE43B78315D02E13007D497F /* TaxiLima-Prefix.pch */ = {isa = PBXFileReference; path = "TaxiLima-Prefix.pch"; sourceTree = "<group>"; };
+		BE43B78415D02E13007D497F /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		BE43B78515D02E13007D497F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BE43B78715D02E13007D497F /* FirstViewController.h */ = {isa = PBXFileReference; path = FirstViewController.h; sourceTree = "<group>"; };
+		BE43B78815D02E13007D497F /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		BE43B78A15D02E13007D497F /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		BE43B78C15D02E13007D497F /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		BE43B78E15D02E13007D497F /* SecondViewController.h */ = {isa = PBXFileReference; path = SecondViewController.h; sourceTree = "<group>"; };
+		BE43B78F15D02E13007D497F /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		BE43B79115D02E13007D497F /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		BE43B79315D02E13007D497F /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		BE43B79615D02E13007D497F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstViewController.xib; sourceTree = "<group>"; };
+		BE43B79915D02E13007D497F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE43B76E15D02E13007D497F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE43B77615D02E13007D497F /* UIKit.framework in Frameworks */,
+				BE43B77815D02E13007D497F /* Foundation.framework in Frameworks */,
+				BE43B77A15D02E13007D497F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE43B76615D02E13007D497F = {
+			isa = PBXGroup;
+			children = (
+				BE43B77B15D02E13007D497F /* TaxiLima */,
+				BE43B77415D02E13007D497F /* Frameworks */,
+				BE43B77215D02E13007D497F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE43B77215D02E13007D497F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE43B77115D02E13007D497F /* TaxiLima.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE43B77415D02E13007D497F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE43B77515D02E13007D497F /* UIKit.framework */,
+				BE43B77715D02E13007D497F /* Foundation.framework */,
+				BE43B77915D02E13007D497F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE43B77B15D02E13007D497F /* TaxiLima */ = {
+			isa = PBXGroup;
+			children = (
+				BE43B78415D02E13007D497F /* AppDelegate.h */,
+				BE43B78515D02E13007D497F /* AppDelegate.m */,
+				BE43B78715D02E13007D497F /* FirstViewController.h */,
+				BE43B78815D02E13007D497F /* FirstViewController.m */,
+				BE43B78A15D02E13007D497F /* first.png */,
+				BE43B78C15D02E13007D497F /* first@2x.png */,
+				BE43B78E15D02E13007D497F /* SecondViewController.h */,
+				BE43B78F15D02E13007D497F /* SecondViewController.m */,
+				BE43B79115D02E13007D497F /* second.png */,
+				BE43B79315D02E13007D497F /* second@2x.png */,
+				BE43B79515D02E13007D497F /* FirstViewController.xib */,
+				BE43B79815D02E13007D497F /* SecondViewController.xib */,
+				BE43B77C15D02E13007D497F /* Supporting Files */,
+			);
+			path = TaxiLima;
+			sourceTree = "<group>";
+		};
+		BE43B77C15D02E13007D497F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE43B77D15D02E13007D497F /* TaxiLima-Info.plist */,
+				BE43B77E15D02E13007D497F /* InfoPlist.strings */,
+				BE43B78115D02E13007D497F /* main.m */,
+				BE43B78315D02E13007D497F /* TaxiLima-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE43B77015D02E13007D497F /* TaxiLima */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE43B79D15D02E13007D497F /* Build configuration list for PBXNativeTarget "TaxiLima" */;
+			buildPhases = (
+				BE43B76D15D02E13007D497F /* Sources */,
+				BE43B76E15D02E13007D497F /* Frameworks */,
+				BE43B76F15D02E13007D497F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TaxiLima;
+			productName = TaxiLima;
+			productReference = BE43B77115D02E13007D497F /* TaxiLima.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE43B76815D02E13007D497F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Virtual-Tec Ltda";
+			};
+			buildConfigurationList = BE43B76B15D02E13007D497F /* Build configuration list for PBXProject "TaxiLima" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BE43B76615D02E13007D497F;
+			productRefGroup = BE43B77215D02E13007D497F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE43B77015D02E13007D497F /* TaxiLima */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE43B76F15D02E13007D497F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE43B78015D02E13007D497F /* InfoPlist.strings in Resources */,
+				BE43B78B15D02E13007D497F /* first.png in Resources */,
+				BE43B78D15D02E13007D497F /* first@2x.png in Resources */,
+				BE43B79215D02E13007D497F /* second.png in Resources */,
+				BE43B79415D02E13007D497F /* second@2x.png in Resources */,
+				BE43B79715D02E13007D497F /* FirstViewController.xib in Resources */,
+				BE43B79A15D02E13007D497F /* SecondViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE43B76D15D02E13007D497F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE43B78215D02E13007D497F /* main.m in Sources */,
+				BE43B78615D02E13007D497F /* AppDelegate.m in Sources */,
+				BE43B78915D02E13007D497F /* FirstViewController.m in Sources */,
+				BE43B79015D02E13007D497F /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BE43B77E15D02E13007D497F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE43B77F15D02E13007D497F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BE43B79515D02E13007D497F /* FirstViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE43B79615D02E13007D497F /* en */,
+			);
+			name = FirstViewController.xib;
+			sourceTree = "<group>";
+		};
+		BE43B79815D02E13007D497F /* SecondViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE43B79915D02E13007D497F /* en */,
+			);
+			name = SecondViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE43B79B15D02E13007D497F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BE43B79C15D02E13007D497F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE43B79E15D02E13007D497F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TaxiLima/TaxiLima-Prefix.pch";
+				INFOPLIST_FILE = "TaxiLima/TaxiLima-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BE43B79F15D02E13007D497F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TaxiLima/TaxiLima-Prefix.pch";
+				INFOPLIST_FILE = "TaxiLima/TaxiLima-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE43B76B15D02E13007D497F /* Build configuration list for PBXProject "TaxiLima" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE43B79B15D02E13007D497F /* Debug */,
+				BE43B79C15D02E13007D497F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE43B79D15D02E13007D497F /* Build configuration list for PBXNativeTarget "TaxiLima" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE43B79E15D02E13007D497F /* Debug */,
+				BE43B79F15D02E13007D497F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE43B76815D02E13007D497F /* Project object */;
+}
